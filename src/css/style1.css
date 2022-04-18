@@ -1,0 +1,50 @@
+.camera-container {
+    max-width: 100%;
+    border: 3px solid black;
+}
+
+.verification-image {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#captureCanvas,
+#uploadCanvas {
+    display: none;
+}
+
+input[name="image-upload"] {
+    display: none;
+}
+
+#errorAlert,
+#warningAlert {
+    display: none;
+}
+
+button.button1 {
+    background-color: #f70404;
+    border: rgb(247, 1, 1);
+    color: rgb(250, 242, 242);
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 26px;
+    top: 50%;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media all and (max-width:30em) {
+    button.button1 {
+        display: block;
+    }
+}
